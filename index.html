@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div>
+         <h1>It is <span id="head" class="xstyle"></span> turn</h1>
+        <table>
+            <tr>
+                <td id="0" onclick="getIndex(this)"></td>
+                <td id="1" onclick="getIndex(this)"></td>
+                <td id="2" onclick="getIndex(this)"></td>
+            </tr>
+            <tr>
+                <td id="3" onclick="getIndex(this)"></td>
+                <td id="4" onclick="getIndex(this)"></td>
+                <td id="5" onclick="getIndex(this)"></td>
+            </tr>
+            <tr>
+                <td id="6" onclick="getIndex(this)"></td>
+                <td onclick="getIndex(this)" id="7"></td>
+                <td onclick="getIndex(this)" id="8"></td>
+            </tr>
+        </table>
+        <br>
+        <div class="btn">
+            
+                <button onclick="buttfun()">restart</button>
+            
+        </div>
+       
+        
+    </div>
+    
+<script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+*box{
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+td{
+    height:100px;
+    width:100px;
+    background:linear-gradient(rgba(0, 0, 255, 0.733),rgba(0, 0, 255, 0.099));
+    border-radius: 0.5em;
+    text-align: center;
+    font-size:60px;
+}
+.xstyle{
+    color:red;
+}
+.ostyle{
+    color:green;
+}
+
+td:hover{
+    cursor:grab;
+    background:rgb(0, 0, 255);
+    border-radius: 0.5em; 
+}
+
+.btn form{
+    display:flex;
+    justify-content:space-around;
+}
+.btn input,button{
+    padding:0.5em;
+    width:4em;
+    color:rgba(255, 255, 255, 0.571);
+    border-radius:4em; 
+    background:linear-gradient(red,black);
+}
+
